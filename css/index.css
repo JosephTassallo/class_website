@@ -1,0 +1,262 @@
+body {
+    background-color: white;}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;}
+
+/*nav bar*/
+.container-fluid{
+    margin-top: 64px;
+    margin-left: 192px;
+    margin-right: 192px;
+    margin-bottom: 64px;
+    padding: 16px;}
+
+.menu{
+    display: flex;}
+
+
+.work{
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+
+    cursor: pointer;}
+
+    .work:hover{
+        font-family: 'Playfair Display';
+        font-style: bold;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        color: #75CFB2 !important;
+    
+        cursor: pointer;}
+
+.about{
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+    
+    padding-left: 64px;
+
+    cursor: pointer;}
+
+    .about:hover{
+        font-family: 'Playfair Display';
+        font-style: bold;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        color: #75CFB2 !important;
+    
+        cursor: pointer;}
+
+/*home page*/
+.card-imageWork{ 
+    transform: scale(0.9);}
+
+/*title*/
+
+.case-study-title{
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    color: #000000;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;}
+
+
+/*main image*/
+.main-card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+    border: pink;}
+
+.image{
+    display: flex;
+    justify-content: center;}
+
+.main-image-body{
+    margin-left: 64px;
+    margin-right: 64px;
+    padding: 0px;}
+
+.about-project{
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+
+    margin-top: 16px;
+    padding-top: 16px;}
+
+.about-p1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;}
+
+
+/*cards*/
+/*cards*/
+.mainWork-card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;}
+
+    .mainWork-card:hover{
+        color: #75CFB2 !important;
+    
+        cursor: pointer;}
+
+.main-card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;}
+    
+.card-image{
+    display: flex;
+    justify-content: center;}
+    
+.card-title{
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;    
+    
+    margin-left: 64px;
+    margin-bottom: 32px;
+    padding: 0px;}
+
+.card-body{
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 32px;
+    padding: 0px;}
+
+.about-card{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;}
+
+.date {
+    padding-left: 64px;
+}
+
+/*conclustion*/
+.conclusion-body{
+    margin-left: 64px;
+    margin-right: 64px;}
+
+/*back to top*/
+.back-to-top{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-bottom: 64px;
+    margin-right: 192px;}
+
+#button-back-to-top{
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+
+    cursor: pointer;}
+
+    #button-back-to-top:hover{
+        font-family: 'Playfair Display';
+        font-style: bold;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        color: #75CFB2 !important;
+    
+        cursor: pointer;}
+/*about page*/
+.jumbotron{
+    background-color: white;
+}
+.aboutHeader{
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;}
+.aboutP {
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+    padding-top: 32px;
+    padding-bottom: 32px;}
+
+.twitter {
+    padding-right: 32px ;}
+
+.linkedin {
+    padding-right: 32px ;}
+
+.dribbble {
+    padding-right: 32px ;}
+
+.resume {
+    padding-right: 32px ;}
+
+/*preloader*/
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: white;
+    top: 0;
+    display: flex;
+    align-items: center;}
+
+.preloader img {
+    animation: spin 3s ease;
+    transition: all;
+    width: 150px;
+    margin: 0 auto;}
+
+    @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(360deg);
+        }
+        100% {
+          transform: rotate(720deg);
+        }
+      }
+      
